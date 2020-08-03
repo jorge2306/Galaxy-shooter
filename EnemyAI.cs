@@ -45,6 +45,7 @@ public class EnemyAI : MonoBehaviour
             player.Damage();
 
         }
+        //Comentario
         else if (other.tag == "Laser")
         {
             Instantiate(_enemyExplosionPrefab, transform.position, Quaternion.identity);
